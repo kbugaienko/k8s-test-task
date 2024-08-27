@@ -7,6 +7,10 @@ on:
   push:
     branches: [ "main" ]
 
+env:
+  GOOS: linux
+  GOARCH: amd64
+
 jobs:
 
   build:
