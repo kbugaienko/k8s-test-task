@@ -42,4 +42,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: user/app:latest
+        tags: ghcr.io/kbugaienko/k8s-test-task:latest
