@@ -11,6 +11,10 @@ env:
   GOOS: linux
   GOARCH: amd64
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
 
   build:
