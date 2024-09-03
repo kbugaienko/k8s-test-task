@@ -12,7 +12,6 @@ env:
   GOARCH: amd64
 
 permissions:
-  contents: read
   packages: write
 
 jobs:
