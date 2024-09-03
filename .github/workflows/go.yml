@@ -41,7 +41,7 @@ jobs:
     - name: Store artifact
       uses: actions/upload-artifact@v4
       with:
-        name: k8s-test-job-artifact
+        name: k8s-test-job-${{ matrix.arch }}
         path: k8s-test-job
         if-no-files-found: error
 
