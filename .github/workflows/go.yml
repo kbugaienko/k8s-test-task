@@ -63,5 +63,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/kbugaienko/k8s-test-task:latest
+        tags: ghcr.io/kbugaienko/k8s-test-task:latest-${{ matrix.arch }}
         platforms: linux/${{ matrix.arch }}
