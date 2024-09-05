@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: k8s-test-task-deployment
+  name: k8s-test-task
   labels:
     app.kubernetes.io/name: k8s-test-task
 spec:
@@ -18,4 +18,4 @@ spec:
       - name: k8s-test-task
         image: ghcr.io/kbugaienko/k8s-test-task:latest-arm64
         ports:
-        - containerPort: 80
+        - containerPort: 8080
